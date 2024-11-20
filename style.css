@@ -130,6 +130,19 @@ body{
     color: #CBF7ED;
 }
 
+@media (max-width: 980px) {
+    #todo{
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    #todo{
+        width: 80%;
+    }
+}
+
+
 @media (max-width: 480px) {
     #todo{
         width: 100%;
