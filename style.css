@@ -99,6 +99,7 @@ body{
     margin-bottom: 5px;
     padding: 10px 5px;
     cursor: pointer;
+    word-wrap: break-word;
     transition: all ease 0.3s;
 }
 
@@ -127,4 +128,23 @@ body{
 .items h2 span:hover{
     background: #23395B;
     color: #CBF7ED;
+}
+
+@media (max-width: 480px) {
+    #todo{
+        width: 100%;
+    }
+    #todo h1{
+        font-size: 2rem;
+    }
+    #todo i{
+        font-size: 1.5rem;
+    }
+    #todo input{
+        font-size: 1rem;
+    }
+    .items h2{
+        font-size: 1.5rem;
+        margin-left: 0px;
+    }
 }
